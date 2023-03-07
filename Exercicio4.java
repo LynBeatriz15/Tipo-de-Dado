@@ -27,9 +27,10 @@ public class Exercicio4 {
         System.out.printf("\n Sua Idade é " + Idade2  + "\n");
 
         if (Idade > Idade2 ){
-            System.out.print("\n" + Nome + " É mais velho(a) que \n" + Nome2 + "\n");
+            System.out.print("\n" + Nome + "É mais velho(a) que \n" + Nome2 + "\n");
         } else if (Idade2 > Idade ){
             System.out.print("\n" + Nome2 + " É mais velho(a) que \n" + Nome + "\n" );
-        }
+        }else 
+        System.out.print("\n" + " Vocês tem a mesma idade \n" + "\n" );
     }
 }
